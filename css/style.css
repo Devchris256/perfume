@@ -1,0 +1,27 @@
+:root{
+  --fondo:#F3EBE4;
+  --gray:#C3C3C3;
+  --black:#1E2023;
+  --white:#FFFFFF;
+  --green:#3C8268;
+}
+
+body{
+  margin: 0;
+  background: var(--fondo);
+}
+
+.wrapeer{
+  margin-block-start: 85px;
+  margin-inline: auto;
+  inline-size: 820px;
+  block-size: 455px;
+  border-radius: 8px;
+  background: var(--white);
+  position: relative;
+}
+.wrapeer img{
+  inline-size: 410px;
+  max-block-size: 455px;
+  border-radius: 8px 0 0 8px;
+}
